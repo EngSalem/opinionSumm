@@ -1,0 +1,13 @@
+data:
+  max_input_length: 1024
+  max_output_length: 100
+
+model:
+  checkpoint:  /afs/cs.pitt.edu/usr0/mse30/public/datastore/opinionsumm_models/yelpfinetune_bart_prompted_ext_para_20k/checkpoint-3000
+  batchsize: 1
+  
+training:
+  eval_steps: 10
+  save_steps: 10
+  epochs: 10
+
