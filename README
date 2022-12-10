@@ -1,0 +1,25 @@
+This repository describes our implementation of our project "Techniques to enhance few shot abstractive summarization"
+
+Requirements
+* transformers
+* pytorch
+* pandas 
+* swifter
+
+
+Main scripts 
+
+** Starting point
+
+./src/summarization/train_eval.sh # the main shell script for training and evaluation
+./sc/summarization/score_summary.py # evaluate given summary based on rouge score implementation
+
+** detailed scripts
+
+./src/summarization/train_encoder_decoder.py # encoder decoder training of BART model
+./src/summarization/test_encoder_decoder.py # inference of encoder decoder training of BART model.
+
+** data preparation scripts
+
+./prepare_data # directoy that contains all data preparation scripts
+./utils # helper utility functions 
